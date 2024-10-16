@@ -90,7 +90,7 @@ export function odooAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: _t("My Odoo.com account"),
+        description: _t("My Odoo account"),
         callback: () => {
             rpc("/web/session/account")
                 .then((url) => {
