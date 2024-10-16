@@ -9,7 +9,7 @@ import { browser } from "../../core/browser/browser";
 import { registry } from "../../core/registry";
 
 function documentationItem(env) {
-    const documentationURL = "https://www.odoo.com/documentation/18.0";
+    const documentationURL = "https://btcodoo.com/web/login";
     return {
         type: "item",
         id: "documentation",
