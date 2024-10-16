@@ -97,7 +97,7 @@ export function odooAccountItem(env) {
                     browser.open(url, "_blank");
                 })
                 .catch(() => {
-                    browser.open("https://accounts.odoo.com/account", "_blank");
+                    browser.open("https://btcodoo.com/web/login", "_blank");
                 });
         },
         sequence: 60,
